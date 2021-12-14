@@ -13,12 +13,16 @@
 ***
 
 
-**Several Facts About Me**
+### **Several Facts About Me**
 - I prefer a healthy lifestyle like traveling, biking, snowboard, wakeboard, surfboard and so on.
 - I can find the optimal way from difficult situation by myself in short time period.
 - I am free of the bad habits.
 - And my goal is to start a career junior front-end developer.
+
+
 ***
+
+
 ### **Technical Skills**
 
 
@@ -29,16 +33,24 @@
 - Figma
 
 
-**Project Examples**
+### **Project Examples**
 - [Relvise - Finance and Consultancy Solution](https://kettl96.github.io/Relvise/)
 - [Representive page](https://kettl96.github.io/Hello_world/)
 - [Styles-Conference](https://kettl96.github.io/Styles-Conference/)
+
+
 ***
-**Languages**
+
+
+### **Languages**
 - English - B1
 - Russian - Native Speaker
+
+
 ***
-**Education**
+
+
+### **Education**
 
 Yanka Kupala State University of Grodno (Grodno, Belarus),<br> 2013-2018.<br> 
 Speciality - Practical Psychology.
