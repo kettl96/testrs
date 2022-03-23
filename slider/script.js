@@ -88,16 +88,29 @@ let pets = [
     "parasites": ["lice", "fleas"]
   }
 ]
+document.body.onload = addPets()
+function addPets() {
+  let slide = document.querySelectorAll('.slide_card')
+  let slider = document.querySelector('.slide_card')
+  console.log(slider);
+  slide.forEach(e => {
+    let img = document.createElement('img')
+    img.className = 'pet__img'
+    img.src = "https://bipbap.ru/wp-content/uploads/2017/04/priroda_kartinki_foto_03.jpg"
+    let divName = document.createElement('div')
+    divName.className = 'pet__name'
+    e.prepend(img, divName)
+  })
+}
 
+// slider
 let slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
@@ -105,12 +118,10 @@ function currentSlide(n) {
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("slide");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
+  if (n > slides.length) { slideIndex = 1 }
+  if (n < 1) { slideIndex = slides.length }
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
-  
-  slides[slideIndex-1].style.display = "flex";
-
+  slides[slideIndex - 1].style.display = "flex";
 }
